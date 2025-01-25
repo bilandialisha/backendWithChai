@@ -1,21 +1,23 @@
 {
-  "name": "chaibackend",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "a basic app to deploy",
-  "keywords": [
-    "node",
-    "chai"
-  ],
+  "description": "",
+  "homepage": "https://github.com/bilandialisha/backendWithChai#readme",
+  "bugs": {
+    "url": "https://github.com/bilandialisha/backendWithChai/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilandialisha/backendWithChai.git"
+  },
   "license": "ISC",
-  "author": "Alisha Bilandi",
-  "type": "commonjs",
+  "author": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "dev": "nodemon src/index.js"
   },
-  "dependencies": {
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
+  "devDependencies": {
     "nodemon": "^3.1.9"
   }
 }
